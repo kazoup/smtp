@@ -2,12 +2,13 @@ package handler
 
 import (
 	"encoding/json"
-	smtp "github.com/Rakanixu/smtp/srv/proto/smtp"
+	"net/http"
+
+	smtp "github.com/kazoup/smtp/srv/proto/smtp"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/errors"
 	api "github.com/micro/micro/api/proto"
 	"golang.org/x/net/context"
-	"net/http"
 )
 
 // Smtp struct

@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/Rakanixu/smtp/api/handler"
-	"github.com/micro/go-micro"
 	"log"
+
+	"github.com/kazoup/smtp/api/handler"
+	"github.com/micro/go-micro"
 )
 
 func main() {

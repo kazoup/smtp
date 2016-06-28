@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/Rakanixu/smtp/srv/handler"
-	"github.com/Rakanixu/smtp/srv/smtp"
+	"log"
+
+	"github.com/kazoup/smtp/srv/handler"
+	"github.com/kazoup/smtp/srv/smtp"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
-	"log"
 )
 
 func main() {
