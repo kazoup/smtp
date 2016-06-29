@@ -7,7 +7,7 @@ dependencies:
 build:
 	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo  .
 docker:
-	docker build -t kazoup/flag-srv .
+	docker build -t kazoup/smtp-srv .
 protoc:
 	protoc -I$$GOPATH/src --go_out=plugins=micro:$$GOPATH/src $$PWD/proto/**/*.proto
 

@@ -6,4 +6,4 @@ clean:
 build:
 	CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo  .
 docker:
-	docker build -t kazoup/flag-api .
+	docker build -t kazoup/smtp-api .
